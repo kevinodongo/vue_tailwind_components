@@ -448,6 +448,7 @@
           <div class="bg-gray-100 mb-20 rounded-lg">
             <div class="py-12">
               <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-xl font-bold mb-4">Tailwind Installation</div>
                 <!-- Installation Step 1 -->
                 <div class="text-lg font-medium">
                   Vue 2 Installation. The easy way of installing tailwind is as
@@ -503,7 +504,7 @@
                   <input
                     id="foo1"
                     class="bg-indigo-200 w-full focus:outline-none focus:ring-1 focus:ring-offset-1 focus:ring-gray-100 rounded-lg"
-                    value="npm install tailwindcss postcss autoprefixer"
+                    value="npm uninstall tailwindcss postcss autoprefixer"
                   />
                   <!-- /end -->
                   <button
