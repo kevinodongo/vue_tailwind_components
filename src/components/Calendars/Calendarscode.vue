@@ -33,7 +33,7 @@
         </button>
       </div>
       <p class="text-coolGray-500 text-sm mt-1 mb-1">
-        We have used v-calendar package package for transition and animation.
+        We have used v-calendar.
       </p>
       <div>
         <v-calendar></v-calendar>

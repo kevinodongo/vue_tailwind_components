@@ -33,7 +33,7 @@
         </button>
       </div>
       <p class="text-coolGray-500 text-sm mt-1 mb-1">
-        We have used v-calendar package package for transition and animation.
+        We have used v-carousel.
       </p>
       <div>
         <carousel :perPage="1">
