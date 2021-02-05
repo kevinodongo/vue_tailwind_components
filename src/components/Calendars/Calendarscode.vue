@@ -2,13 +2,13 @@
   <div class="alerts">
     <div class="grid grid-cols-1 p-2 justify-center">
       <div
-        class="bg-gray-100 border border-gray-400 rounded-lg justify-center py-2 px-2 flex items-center w-60"
+        class="bg-gray-100 border border-gray-400 rounded-lg justify-center py-2 px-2 flex items-center w-full sm:w-60"
       >
         <!-- Target -->
         <input
           id="foo"
           class="bg-gray-100  focus:outline-none focus:ring-1 focus:ring-offset-1 focus:ring-gray-100 rounded-lg"
-          value="$ yarn add v-calendar"
+          value="yarn add v-calendar"
         />
         <!-- Trigger -->
         <button

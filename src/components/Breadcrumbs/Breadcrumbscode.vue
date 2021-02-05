@@ -5,7 +5,9 @@
 
       <!-- Option 1 -->
       <div class="flex items-center">
-        <span class="text-base md:text-lg mr-2 text-indigo-600 font-medium">Dashboard</span>
+        <span class="text-base md:text-lg mr-2 text-indigo-600 font-medium"
+          >Dashboard</span
+        >
         /
         <span class="text-base md:text-lg ml-2 mr-2 text-indigo-600 font-normal"
           >Link-1</span
@@ -15,7 +17,9 @@
       </div>
       <!-- Option 2 -->
       <div class="flex items-center">
-        <span class="text-base md:text-lg text-indigo-600 font-medium">Dashboard</span>
+        <span class="text-base md:text-lg text-indigo-600 font-medium"
+          >Dashboard</span
+        >
         <button
           class="ml-2 rounded-full text-gray-500 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
         >
@@ -35,7 +39,9 @@
             />
           </svg>
         </button>
-        <span class="text-base md:text-lg ml-2 text-indigo-600 font-normal">Link-1</span>
+        <span class="text-base md:text-lg ml-2 text-indigo-600 font-normal"
+          >Link-1</span
+        >
         <button
           class="ml-2 rounded-full text-gray-500 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
         >
@@ -59,7 +65,9 @@
       </div>
       <!-- Option 3 -->
       <div class="flex items-center">
-        <span class="text-base md:text-lg text-indigo-600 font-medium">Dashboard</span>
+        <span class="text-base md:text-lg text-indigo-600 font-medium"
+          >Dashboard</span
+        >
         <button
           class="ml-2 rounded-full text-gray-500 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
         >
@@ -79,7 +87,9 @@
             />
           </svg>
         </button>
-        <span class="text-base md:text-lg ml-2 text-indigo-600 font-normal">Link-1</span>
+        <span class="text-base md:text-lg ml-2 text-indigo-600 font-normal"
+          >Link-1</span
+        >
         <button
           class="ml-2 rounded-full text-gray-500 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
         >
@@ -103,7 +113,9 @@
       </div>
       <!-- Option 4 -->
       <div class="flex items-center">
-        <span class="text-base md:text-lg text-indigo-600 font-medium">Dashboard</span>
+        <span class="text-base md:text-lg text-indigo-600 font-medium"
+          >Dashboard</span
+        >
         <button
           class="ml-2 rounded-full text-gray-500 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
         >
@@ -123,7 +135,9 @@
             />
           </svg>
         </button>
-        <span class="text-base md:text-lg ml-2 text-indigo-600 font-normal">Link-1</span>
+        <span class="text-base md:text-lg ml-2 text-indigo-600 font-normal"
+          >Link-1</span
+        >
         <button
           class="ml-2 rounded-full text-gray-500 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
         >

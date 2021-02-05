@@ -24,8 +24,8 @@
       </button>
     </div>
     <pre><code id="code_content" class="language-markup"><script type="prism-html-markup">
-    <template>
-       <div class="alerts">
+<template>
+  <div class="alerts">
     <!--Alert Types-->
     <div class="grid grid-cols-1 gap-y-5 mt-10 p-2 justify-center">
       <!--Normal-->
@@ -498,7 +498,7 @@
       </div>
     </div>
   </div>
-    </template>
+ </template>
     </script></code></pre>
   </div>
 </template>

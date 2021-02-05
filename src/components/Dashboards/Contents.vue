@@ -1,5 +1,5 @@
 <template>
-  <div class="Lists">
+  <div class="Dashboards">
     <div class="mt-20">
       <div class="flex  items-center">
         <span class="text-gray-500 font-medium antialiased">Components</span>
@@ -22,15 +22,19 @@
             />
           </svg>
         </button>
-        <span class="ml-2 antialiased">Lists</span>
+        <span class="ml-2 antialiased">Drawers</span>
       </div>
     </div>
-    <h2 class="text-2xl font-semibold text-coolGray-900 tracking-wide antialiased">Lists</h2>
+    <h2
+      class="text-2xl font-semibold text-coolGray-900 tracking-wide antialiased"
+    >
+      Drawers
+    </h2>
     <div class="bg-white border border-gray-250 mt-3 rounded-xl">
       <nav class="border-b-2 border-gray-250  rounded-t-xl">
         <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
           <div class="relative flex items-center justify-between h-16">
-            <h1 class="hidden sm:inline text-xl">Groups of Lists</h1>
+            <h1 class="hidden sm:inline text-xl">Groups of Drawers</h1>
             <div class="flex">
               <button
                 @click="
@@ -57,21 +61,21 @@
         </div>
       </nav>
       <div v-if="showpreview">
-        <Listpreview />
+        <Dashboardpreview />
       </div>
       <div v-if="showcode">
-        <Listcode />
+        <Dashboardcode />
       </div>
     </div>
   </div>
 </template>
 
 <script>
-import Listpreview from "./Listscode"; // normal code
-import Listcode from "./Listshtml"; // html
+import Dashboardpreview from "./Dashboardcode"; // normal code
+import Dashboardcode from "./Dashboardhtml"; // html
 export default {
-  name: "Lists",
-  components: { Listcode, Listpreview },
+  name: "Dashboards",
+  components: { Dashboardcode, Dashboardpreview },
   data() {
     return {
       showpreview: true,

@@ -23,13 +23,13 @@
     <div class="container mx-auto py-12">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div
-          class="bg-gray-100 border border-gray-400 rounded-lg justify-center py-2 px-2 flex items-center w-60"
+          class="bg-gray-100 border border-gray-400 rounded-lg justify-center py-2 px-2 flex items-center w-full sm:w-60"
         >
           <!-- Target -->
           <input
             id="foo"
             class="bg-gray-100  focus:outline-none focus:ring-1 focus:ring-offset-1 focus:ring-gray-100 rounded-lg"
-            value="$ yarn add aos"
+            value="yarn add aos"
           />
           <!-- Trigger -->
           <button

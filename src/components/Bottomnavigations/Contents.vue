@@ -22,20 +22,20 @@
             />
           </svg>
         </button>
-        <span class="ml-2 antialiased">Bottomnavigations</span>
+        <span class="ml-2 antialiased">Bottom navigations</span>
       </div>
     </div>
     <h2
       class="text-2xl font-semibold text-coolGray-900 tracking-wide antialiased"
     >
-      Bottomnavigations
+      Bottom navigations
     </h2>
     <div class="bg-white border border-gray-250 mt-3 rounded-xl">
       <nav class="border-b-2 border-gray-250  rounded-t-xl">
         <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
           <div class="relative flex items-center justify-between h-16">
             <h1 class="hidden sm:inline text-xl">
-              Groups of Bottomnavigations
+              Groups of Bottom navigations
             </h1>
             <div class="flex">
               <button

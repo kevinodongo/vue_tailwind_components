@@ -1,5 +1,5 @@
 <template>
-  <div class="alert-html">
+  <div class="badges-html" style="background-color: #f5f2f0">
     <div class="text-right">
       <button
         data-clipboard-action="copy"
@@ -24,8 +24,8 @@
       </button>
     </div>
     <pre><code id="code_content" class="language-markup"><script type="prism-html-markup">
-    <template>
-        <div class="avatars">
+<template>
+  <div class="avatars">
     <div class="grid grid-cols-1 gap-y-5 mt-10 p-2 justify-center">
       <!-- Types of Avatars -->
       <div class="flex space-x-1 overflow-hidden justify-center">
@@ -108,7 +108,7 @@
       </div>
     </div>
   </div>
-    </template>
+ </template>
     </script></code></pre>
   </div>
 </template>

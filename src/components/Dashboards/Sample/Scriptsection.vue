@@ -1,10 +1,10 @@
 <template>
-  <div class="tooltips-html" style="background-color: #f5f2f0">
+  <div class="sample-script" style="background-color: #f5f2f0">
     <div class="text-right">
       <button
         data-clipboard-action="copy"
         data-clipboard-target="#code_content"
-        class="btn bg-gray-100 py-2 px-4 ml-3 rounded-lg text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
+        class="btn bg-gray-100 py-2 px-3 ml-3 rounded-lg text-gray-400 hover:text-gray-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-300 focus:ring-gray-300"
       >
         <span class="sr-only">View notifications</span>
         <svg
@@ -23,35 +23,15 @@
         </svg>
       </button>
     </div>
-    <pre><code id="code_content" class="language-markup"><script type="prism-html-markup">
- <template>
-  <div
-        class="flex flex-col items-center md:flex-row gap-y-3 justify-center"
-      >
-        <div class="tooltip cursor-pointer relative">
-          <div
-            class="tooltiptext absolute z-1 justify-center py-2 px-4 w-32 bg-gray-600 text-white rounded-lg"
-          >
-            Tooltip text
-          </div>
-          <div class="mt-10 text-gray-800 text-lg font-medium">
-            Hover over me
-          </div>
-        </div>
-      </div>
-
-      <!--
-        <style>
-.tooltip .tooltiptext {
-  visibility: hidden;
-  
-}
-.tooltip:hover .tooltiptext {
-  visibility: visible;
-}
-</style>
-      -->  
- </template>
+    <pre><code id="code_content" class="language-javascript"><script type="prism-javascript-markup">
+      <!--Script-->
+       export default {
+          data() {
+            return {
+              showalert: false
+            };
+          },
+      };
     </script></code></pre>
   </div>
 </template>

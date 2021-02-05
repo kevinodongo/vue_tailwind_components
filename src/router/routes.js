@@ -36,7 +36,7 @@ const routes = [
     path: "/tutorials/components/bars",
     name: "BarsTutorial",
     component: () => import("../components/Bars/Tutorial.vue")
-  },
+  }
 ];
 
 export default routes;

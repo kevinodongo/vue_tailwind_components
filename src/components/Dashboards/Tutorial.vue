@@ -29,7 +29,7 @@
           <input
             id="foo"
             class="bg-gray-100  focus:outline-none focus:ring-1 focus:ring-offset-1 focus:ring-gray-100 rounded-lg"
-            value="yarn add aos"
+            value="$ yarn add aos"
           />
           <!-- Trigger -->
           <button
@@ -170,7 +170,16 @@
             <Scriptsection />
           </div>
           <div v-if="showpreview">
-            <Previewsection />
+            <div class="flex justify-center">
+              <button
+                @click="showalert = !showalert"
+                type="button"
+                class="mt-5 mb-5 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 w-full inline-flex justify-center rounded-md border border-transparent shadow-md px-4 py-2 bg-indigo-500 text-base font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500  sm:w-auto"
+              >
+                <span v-if="showalert">Hide</span> <span v-else>Show</span>
+                <span class="ml-1">Alert</span>
+              </button>
+            </div>
           </div>
         </div>
       </div>
@@ -183,10 +192,9 @@ import Prism from "prismjs";
 import "prismjs/themes/prism.css";
 import Htmlsection from "./Sample/Htmlsection";
 import Scriptsection from "./Sample/Scriptsection";
-import Previewsection from "./Sample/Previewsection";
 import ClipboardJS from "clipboard";
 export default {
-  components: { Htmlsection, Scriptsection, Previewsection },
+  components: { Htmlsection, Scriptsection },
   data() {
     return {
       showalert: false,

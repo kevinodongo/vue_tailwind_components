@@ -2,30 +2,30 @@
   <div class="Calendars">
     <div class="mt-20">
       <div class="hidden sm:inline">
-      <div class="flex  items-center">
-        <span class="text-gray-500 font-medium antialiased">Components</span>
-        <button
-          class="ml-2 rounded-full text-gray-500 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
-        >
-          <span class="sr-only">Button Label</span>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-            class="h-4 w-4"
+        <div class="flex  items-center">
+          <span class="text-gray-500 font-medium antialiased">Components</span>
+          <button
+            class="ml-2 rounded-full text-gray-500 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
           >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M20 12H4"
-            />
-          </svg>
-        </button>
-        <span class="ml-2 antialiased">Calendars</span>
+            <span class="sr-only">Button Label</span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              class="h-4 w-4"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M20 12H4"
+              />
+            </svg>
+          </button>
+          <span class="ml-2 antialiased">Calendars</span>
+        </div>
       </div>
-    </div>
     </div>
     <div class="flex justify-between items-center">
       <h2

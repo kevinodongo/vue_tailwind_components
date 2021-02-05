@@ -91,13 +91,15 @@
           </div>
         </div>
       </div>
-      <button
-        @click="hidealert = !hidealert"
-        type="button"
-        class="w-full inline-flex justify-center rounded-md border border-transparent shadow-none px-4 py-2 bg-gray-200 text-base font-medium text-gray-400 hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-300 sm:w-auto"
-      >
-        Show Dialog
-      </button>
+      <div class="text-center">
+        <button
+          @click="hidealert = !hidealert"
+          type="button"
+          class="w-full inline-flex justify-center rounded-md border border-transparent shadow-none px-4 py-2 bg-indigo-500 text-base font-medium text-white hover:bg-indigo-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-300 sm:w-auto"
+        >
+          Show Dialog
+        </button>
+      </div>
     </div>
   </div>
 </template>

@@ -23,7 +23,6 @@
 <style>
 .tooltip .tooltiptext {
   visibility: hidden;
-  
 }
 .tooltip:hover .tooltiptext {
   visibility: visible;

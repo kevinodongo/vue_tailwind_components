@@ -25,7 +25,11 @@
         <span class="ml-2 antialiased">Tooltips</span>
       </div>
     </div>
-    <h2 class="text-2xl font-semibold text-coolGray-900 tracking-wide antialiased">Tooltips</h2>
+    <h2
+      class="text-2xl font-semibold text-coolGray-900 tracking-wide antialiased"
+    >
+      Tooltips
+    </h2>
     <div class="bg-white border border-gray-250 mt-3 rounded-xl">
       <nav class="border-b-2 border-gray-250  rounded-t-xl">
         <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">

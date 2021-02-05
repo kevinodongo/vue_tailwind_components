@@ -1,5 +1,5 @@
 <template>
-  <div class="alert-html">
+  <div class="chips-html" style="background-color: #f5f2f0">
     <div class="text-right">
       <button
         data-clipboard-action="copy"

@@ -46,7 +46,7 @@
             alt="carousel image"
           />
         </slide>
-         <slide>
+        <slide>
           <img
             style="height: 600px"
             class="object-cover w-full"
